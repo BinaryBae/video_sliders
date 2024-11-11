@@ -1,0 +1,11 @@
+repeat_noise False
+use_original_steps False
+quantize_denoised False
+temperature 1.0
+noise_dropout 0.0
+score_corrector None
+corrector_kwargs None
+unconditional_guidance_scale 15
+sample_noise None
+cond_fn None
+uc_type None

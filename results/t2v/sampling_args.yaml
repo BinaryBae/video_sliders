@@ -1,0 +1,22 @@
+batch_size: 1
+cfg_scale: 15.0
+ckpt_path: t2v.ckpt
+config_path: text2video.yaml
+ddim_steps: 50
+ddp: false
+decode_frame_bs: 1
+eta: 1.0
+gpu_id: 0
+local_rank: 0
+n_samples: 1
+num_frames: 16
+prompt: human eating banana
+sample_type: ddim
+save_dir: results/t2v
+save_fps: 8
+save_jpg: true
+save_mp4: true
+save_mp4_sheet: false
+save_npz: false
+seed: 1000
+show_denoising_progress: true
